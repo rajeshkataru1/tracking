@@ -13,7 +13,7 @@ spec:
     metadata:
         name: new-app
         labels:
-          env: production
+          app: myapp
     spec:
       containers:
         - name: nginx
